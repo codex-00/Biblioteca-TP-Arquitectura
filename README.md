@@ -139,23 +139,6 @@ El diagrama muestra:
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
-
-- **Lenguaje:** Java 8+
-- **Base de Datos:** MySQL / PostgreSQL / SQLite
-- **Patrón de Arquitectura:** Arquitectura en Capas (3-tier)
-- **Patrón de Diseño:** Singleton, DAO (Data Access Object)
-
----
-
-## ⚙️ Requisitos Previos
-
-- JDK 8 o superior
-- Base de datos (MySQL/PostgreSQL/SQLite)
-- Driver JDBC correspondiente
-
----
-
 ## 🚀 Instalación y Configuración
 
 ### 1. Clonar el repositorio
@@ -277,7 +260,7 @@ Este proyecto es parte de un trabajo práctico académico. No se aceptan contrib
 
 ## 📄 Licencia
 
-Este proyecto es de uso académico - Universidad [Nombre de tu Universidad]
+Este proyecto es de uso académico - Universidad Nacional de José C. Paz
 
 ---
 
@@ -285,7 +268,6 @@ Este proyecto es de uso académico - Universidad [Nombre de tu Universidad]
 
 **Alejo Ezequiel Escurra**  
 Ingeniería de Software II  
-[Tu email o LinkedIn si quieres agregarlo]
 
 ---
 
