@@ -1,7 +1,8 @@
 # Sistema de Gestión de Biblioteca 📚
 
 Trabajo Práctico – Unidad 3: Diseño Arquitectónico  
-Materia: Ingeniería de Software
+Materia: Ingeniería de Software II
+Profesor: Víctor Hugo Contreras
 
 ## 🏗️ Arquitectura en 3 Capas
 
@@ -46,5 +47,5 @@ java presentacion.Main
 ---
 
 ## ✨ Autor
-[Tu nombre aquí]
+Alejo Ezequiel Escurra
 
