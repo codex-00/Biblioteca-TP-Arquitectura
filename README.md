@@ -129,7 +129,7 @@ biblioteca-gestion/
 
 El diagrama UML completo del sistema se encuentra en la carpeta `/uml`:
 
-![Diagrama UML](uml/diagrama_uml_biblioteca.png)
+![Diagrama UML](uml/uml_biblioteca.png)
 
 El diagrama muestra:
 - Las tres capas del sistema
