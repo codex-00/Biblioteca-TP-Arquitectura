@@ -139,55 +139,6 @@ El diagrama muestra:
 
 ---
 
-## 🚀 Instalación y Configuración
-
-### 1. Clonar el repositorio
-```bash
-git clone https://github.com/tu-usuario/biblioteca-gestion.git
-cd biblioteca-gestion
-```
-
-### 2. Configurar la base de datos
-```sql
--- Crear base de datos
-CREATE DATABASE biblioteca;
-
--- Crear tablas necesarias
-CREATE TABLE libros (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    titulo VARCHAR(200),
-    autor VARCHAR(100),
-    isbn VARCHAR(20),
-    estado VARCHAR(20)
-);
-
-CREATE TABLE socios (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(100),
-    email VARCHAR(100),
-    estado VARCHAR(20)
-);
-
-CREATE TABLE prestamos (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    socio_id INT,
-    libro_id INT,
-    fecha_prestamo DATE,
-    fecha_devolucion DATE,
-    FOREIGN KEY (socio_id) REFERENCES socios(id),
-    FOREIGN KEY (libro_id) REFERENCES libros(id)
-);
-```
-
-### 3. Configurar conexión en `ConexionDB.java`
-```java
-private static final String URL = "jdbc:mysql://localhost:3306/biblioteca";
-private static final String USER = "root";
-private static final String PASSWORD = "tu_password";
-```
-
----
-
 ## ▶️ Ejecución
 
 ### Opción 1: Desde consola
@@ -247,7 +198,7 @@ java presentacion.Main
 ## 📝 Documentación Adicional
 
 Para más información sobre el diseño y decisiones arquitectónicas, consultar:
-- [Informe del Trabajo Práctico](docs/informe.pdf)
+- [Informe del Trabajo Práctico](docs/Informe - Sistema de Gestión de Biblioteca.pdf]
 - [Diagrama UML](uml/diagrama_uml_biblioteca.png)
 
 ---
