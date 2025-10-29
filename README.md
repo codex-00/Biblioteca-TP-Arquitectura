@@ -198,7 +198,7 @@ java presentacion.Main
 ## 📝 Documentación Adicional
 
 Para más información sobre el diseño y decisiones arquitectónicas, consultar:
-- [Informe del Trabajo Práctico](docs/Informe - Sistema de Gestión de Biblioteca.pdf]
+- [Informe del Trabajo Práctico](docs/Informe - Sistema de Gestión de Biblioteca.pdf)
 - [Diagrama UML](uml/diagrama_uml_biblioteca.png)
 
 ---
